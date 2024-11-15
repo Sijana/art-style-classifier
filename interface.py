@@ -4,14 +4,9 @@ from PIL import Image
 import pandas as pd
 import os 
 import requests
-import os
-import pandas as pd
-import tensorflow as tf
-import numpy as np
-from PIL import Image
 import tensorflow as tf
 from tensorflow.keras.applications import ResNet50
-from tensorflow.keras.layers import Dense, GlobalAveragePooling2D, Dropout
+from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.models import Model
 
 class ArtStyleClassifier:

@@ -127,6 +127,7 @@ def main():
     # Load model
     model, style_names = load_model()
     formatted_styles = ', '.join(style_names)
+
     
     st.title('Art Style Classifier')
     st.write("Art Style Classifier using Convoluted Neural Network using ResNet50 and WikiArts database.")
